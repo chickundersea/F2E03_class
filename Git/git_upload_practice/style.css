@@ -1,0 +1,21 @@
+h1 {
+    color: brown;
+    font-size: 36px;
+}
+
+p {
+    color: gray;
+    font-size: 18px;
+}
+
+div ul {
+    list-style-type: square;
+    color: green;
+    border: 1px solid gray;
+    padding: 20px;   
+    border-radius: 5px;
+}
+
+ul :nth-child(odd) {
+    background-color: #f0f0f0;
+}
