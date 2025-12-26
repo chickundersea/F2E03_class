@@ -1,0 +1,27 @@
+{
+  "name": "vue-testing-starter",
+  "version": "1.0.0",
+  "description": "Vue3 元件測試入門 - Starter Kit",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:e2e": "playwright test",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vitest/coverage-v8": "^4.0.16",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.0.11",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.0",
+    "vitest": "^4.0.16"
+  }
+}
